@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="add_todo_layout_margin">15dp</dimen>
+    <dimen name="body_text_size">16sp</dimen>
+</resources>
