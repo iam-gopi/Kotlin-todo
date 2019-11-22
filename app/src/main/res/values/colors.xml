@@ -3,4 +3,7 @@
     <color name="colorPrimary">#123954</color>
     <color name="colorPrimaryDark">#186193</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="card_gradient_start">#136692</color>
+    <color name="card_gradient_end">#12D8EB</color>
 </resources>

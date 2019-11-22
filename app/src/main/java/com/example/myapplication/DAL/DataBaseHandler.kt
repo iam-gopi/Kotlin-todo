@@ -39,7 +39,7 @@ class DataBaseHandler(context: Context) :
     fun getAllToDo(): ArrayList<ToDoModel> {
         val db = this.writableDatabase
         var query =
-            "SELECT ${Constants.COL_TODO}, ${Constants.COL_ISDONE} FROM ${Constants.TABLE_NAME} " +
+            "SELECT ${Constants.COL_TODO}, ${Constants.ID} FROM ${Constants.TABLE_NAME} " +
                     "WHERE ${Constants.COL_ISDONE} = 0"
         val cursor = db.rawQuery(query, null)
         var todoData = ArrayList<ToDoModel>()

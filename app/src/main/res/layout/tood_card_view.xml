@@ -8,20 +8,24 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:elevation="8dp"
-        app:cardElevation="8dp"
+        android:elevation="@dimen/elevation"
+        app:cardElevation="@dimen/elevation"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="@dimen/elevation"
         android:layout_margin="@dimen/add_todo_layout_margin">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:background="@drawable/gradientbg"
             android:padding="@dimen/add_todo_layout_margin">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblTodo"
+                android:textColor="#fff"
                 android:text="Todo Text"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large">
             </TextView>
@@ -30,9 +34,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblIsDone"
-                android:text="isDone"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:visibility="visible"></TextView>
+                android:visibility="invisible"></TextView>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

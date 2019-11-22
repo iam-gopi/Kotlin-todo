@@ -8,29 +8,6 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <!--    <LinearLayout-->
-    <!--        android:id="@+id/relativeLayout"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_margin="@dimen/add_todo_layout_margin"-->
-    <!--        android:layout_marginBottom="652dp"-->
-    <!--        android:orientation="vertical"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.551"-->
-    <!--        app:layout_constraintStart_toStartOf="parent">-->
-
-    <!--        <TextView-->
-    <!--            android:id="@+id/todos"-->
-    <!--            android:layout_width="wrap_content"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:gravity="center"-->
-    <!--            android:textSize="@dimen/body_text_size"-->
-    <!--            android:text="TextView" />-->
-
-    <!--    </LinearLayout>-->
-
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcylrToDo"
         android:layout_width="0dp"
