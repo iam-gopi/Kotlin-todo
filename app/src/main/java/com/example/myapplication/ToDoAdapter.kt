@@ -29,6 +29,6 @@ class ToDoAdapter(val todoList: ArrayList<ToDoModel>) :
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val txtTodoView = itemView.findViewById<TextView>(R.id.lblTodo)
-        val txtTodoIsDone = itemView.findViewById<TextView>(R.id.lblIsDone)
+        val txtTodoIsDone = itemView.findViewById<TextView>(R.id.lblID)
     }
 }
